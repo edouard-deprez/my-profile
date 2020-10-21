@@ -1,0 +1,110 @@
+body {
+	color: rgb(30, 30, 30);
+    font-family: Zilla Slab;
+    background-color: rgb(226, 238, 242);
+    font-size: 18px;
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+
+h1, h2 {
+	font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+	color: #d2ab63;
+	font-size: 36px;
+}
+
+h2 {
+	color: rgb(30, 30, 30);
+    font-size: 19px;
+}
+
+a {
+	text-decoration: none;
+	color : #d2ab63;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 16px;
+}
+ a:hover {
+ 	color : red;
+ }
+
+.img-circle {
+	border-radius: 5px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background-color: rgb(226, 238, 242);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+.btn-brown {
+	background-color: #d2ab63;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-brown:hover {
+	background-color: rgb(226, 238, 242);
+	color: #d2ab63;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color : #d2ab63;
+}
+
+.list-inline i:hover {
+	color : black;
+}
+
+#introduction p {
+	margin-bottom: 60px;
+}
